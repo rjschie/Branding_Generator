@@ -1,40 +1,88 @@
+
 @import "settings";
 @import "foundation";
 
-// Or selectively include components
-// @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switch",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
+.testborder {
+	border: 1px solid red;
+}
+
+/**
+ * Option Picking
+ */
+#options {
+	margin-top: 1rem;
+}
+
+
+
+/**
+ * Display
+ */
+.displayer {
+	display: inline-block;
+	margin: 2em 1em 0 1em;
+	border: 1px solid #aaa;
+	box-shadow: 0 0 5px #ddd;
+	position: relative;
+
+	small {
+		display: block;
+		position: relative;
+		top: -1.3rem;
+		text-align: center;
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+}
+
+//$icon-divide: 1.4;
+$icon-divide: 1;
+$phone-divide: 4.4;
+$tablet-divide: 7;
+
+#icon {
+	height: (240px/$icon-divide);
+	width: (240px/$icon-divide);
+
+	.logo {
+		margin: 0 auto;
+		width: 85%;
+		height: 85%;
+	}
+}
+
+#phone {
+	height: (1920px/$phone-divide);
+	width: (1080px/$phone-divide);
+
+	.logo {
+		width: 140px;
+		height: 140px;
+	}
+}
+
+#tablet {
+	height: (3840px/$tablet-divide);
+	width: (2400px/$tablet-divide);
+
+	.logo {
+		width: 190px;
+		height: 190px;
+	}
+}
+
+.logo-table {
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.logo {
+	top: 0;
+	left: 0;
+	position: absolute !important;
+	background-size: cover;
+}

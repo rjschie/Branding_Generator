@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tester</title>
+	<style type="text/css">
+		.wrap {
+			float: right;
+		}
+	</style>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script src="bower_components/foundation/js/foundation.min.js"></script>
+	<script type="text/javascript">
+
+		$(document).foundation();
+
+		$(function() {
+			$("#inputField").on('change', Foundation.utils.debounce(function () {
+				$("div#output").html($(this).val());
+			}, 100, true));
+		});
+	</script>
+</head>
+<body>
+
+<div class="wrap">
+	<input id="inputField" type="color" value="#e17842">
+	<br>
+	<div id="nowwy"></div>
+	<br>
+	Events:
+	<br>
+	<div id="thing"></div>
+	<br>
+	<div id="output"></div>
+</div>
+
+</body>
+</html>

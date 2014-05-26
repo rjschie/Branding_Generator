@@ -3,17 +3,67 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
+    <title>Branding Generator</title>
     <link rel="stylesheet" href="css/app.css" />
+	  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
 
+	<!--<form id="colorpicker_frm">-->
+		<div id="options" class="row">
+			<div class="small-6 medium-3 medium-offset-3 columns text-center ">
+				<div class="row ">
+					<div class="small-9 columns">
+						<label class="" for="bgcolor">Background Color</label>
+					</div>
+					<div class="small-3 columns inline">
+						<input id="bgcolor" name="bgcolor" type="color" value="#27354b">
+					</div>
+				</div>
+			</div>
+			<div class="small-6 medium-3 columns end text-center ">
+				<div class="row ">
+					<div class="small-9 columns">
+						<label class="" for="logocolor">Logo Color</label>
+					</div>
+					<div class="small-3 columns inline">
+						<input id="logocolor" name="logocolor" type="color" value="#e1e4e8">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-6 columns">
+				<label for="logoimage">Image</label><input id="logoimage" name="logoimage" type="file">
+			</div>
+			<div class="row">
+				<a id="logoResetPos" class="button tiny">Reset Pos</a>
+			</div>
+		</div>
+	<!--</form>-->
 
+	<div class="row">
+		<!--<div class="small-12 columns">-->
+		<div class="small-4 small-centered columns">
+			<div id="icon" class="displayer">
+				<small>Icon</small>
+				<div class="logo-table"><canvas class="logo"></canvas></div>
+			</div>
+			<!--<div id="phone" class="displayer">-->
+				<!--<small>Phone</small>-->
+				<!--<div class="logo-table"><canvas class="logo"></canvas></div>-->
+			<!--</div>-->
+			<!--<div id="tablet" class="displayer">-->
+				<!--<small>Tablet</small>-->
+				<!--<div class="logo-table"><canvas class="logo"></canvas></div>-->
+			<!--</div>-->
+		</div>
+	</div>
 
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/min/app-ck.js"></script>
   </body>
 </html>
