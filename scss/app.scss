@@ -2,6 +2,7 @@
 @import "settings";
 @import "foundation";
 
+
 .testborder {
 	border: 1px solid red;
 }
@@ -16,14 +17,15 @@
 
 
 /**
- * Display
+ * Container for the device image
  */
 .displayer {
 	display: inline-block;
-	margin: 2em 1em 0 1em;
-	border: 1px solid #aaa;
-	box-shadow: 0 0 5px #ddd;
+	margin: 2em 1em;
+	border: none;
+	box-shadow: 0 0 15px #444;
 	position: relative;
+	background-color: #27354b;
 
 	small {
 		display: block;
@@ -35,25 +37,32 @@
 	}
 }
 
-//$icon-divide: 1.4;
-$icon-divide: 1;
-$phone-divide: 4.4;
-$tablet-divide: 7;
+// Division Vars
+$phone-divide: 3;
+$tablet-divide: 6;
 
 #icon {
-	height: (240px/$icon-divide);
-	width: (240px/$icon-divide);
+	height: 256px;
+	width: 256px;
+
+	&, * {
+		@include box-sizing(content-box);
+	}
 
 	.logo {
 		margin: 0 auto;
-		width: 85%;
-		height: 85%;
+		width: 200px;
+		height: 200px;
 	}
 }
 
 #phone {
 	height: (1920px/$phone-divide);
 	width: (1080px/$phone-divide);
+
+	&, * {
+		@include box-sizing(content-box);
+	}
 
 	.logo {
 		width: 140px;
@@ -65,11 +74,16 @@ $tablet-divide: 7;
 	height: (3840px/$tablet-divide);
 	width: (2400px/$tablet-divide);
 
+	&, * {
+		@include box-sizing(content-box);
+	}
+
 	.logo {
 		width: 190px;
 		height: 190px;
 	}
 }
+
 
 .logo-table {
 	display: block;

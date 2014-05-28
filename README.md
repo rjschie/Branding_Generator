@@ -1,17 +1,47 @@
-# TODO's
+NOTES
+===================
 
-- logo uploading
-- submit to branding
-- download images
-+ Color picker
-- Resizable
-	- only resize when option is selected, then show all corner handles ?and border?
-+ Draggable
-- have ajax/php resize the png to fit into canvas
-- have ajax/php convert image bw->transparent
+Logo Process
+--------------------
+User uploads logo
+send to PHP via AJAX
+thumbnail-ify
+send back via AJAX
+Put in canvas
 
 
-# Questionables
+Submit Image Process
+--------------------
+send data via AJAX (in JSON)
+	- bg color
+	- logo color
+	- logo sizes
+		- icon
+		- phone
+		- tablet
+	- logo position
+		- icon
+		- phone
+		- tablet
+	- logo image
+Php create images
+email to branding dept.
+show on screen
+Success!
 
-- Tabbed layout?
-- Preview on Mobile
+
+
+TODO
+================
+Get image into Local Storage
+	- fullimage
+	- tabletimage
+	- iconimage
+
+
+
+Algorithm to convert small position to big position
+------------------------------------------------------
+(fullparent-fullthis)/((origparent-origthis)/pos)
+
+

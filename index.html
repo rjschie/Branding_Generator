@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Branding Generator</title>
     <link rel="stylesheet" href="css/app.css" />
-	  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+	<!--<script src="bower_components/modernizr/modernizr.js"></script>-->
   </head>
   <body>
 
-	<!--<form id="colorpicker_frm">-->
+	<form id="branding_frm">
 		<div id="options" class="row">
 			<div class="small-6 medium-3 medium-offset-3 columns text-center ">
 				<div class="row ">
@@ -37,15 +37,20 @@
 			<div class="small-6 columns">
 				<label for="logoimage">Image</label><input id="logoimage" name="logoimage" type="file">
 			</div>
-			<div class="row">
+			<div class="small-6 columns">
 				<a id="logoResetPos" class="button tiny">Reset Pos</a>
 			</div>
 		</div>
-	<!--</form>-->
+		<input type="hidden" class="hide" id="iconLogoPosX" name="iconLogoPosX">
+		<input type="hidden" class="hide" id="iconLogoPosY" name="iconLogoPosY">
+		<input type="hidden" class="hide" id="phoneLogoPosX" name="phoneLogoPosX">
+		<input type="hidden" class="hide" id="phoneLogoPosY" name="phoneLogoPosY">
+		<input type="hidden" class="hide" id="tabletLogoPosX" name="tabletLogoPosX">
+		<input type="hidden" class="hide" id="tabletLogoPosY" name="tabletLogoPosY">
+	</form>
 
 	<div class="row">
-		<!--<div class="small-12 columns">-->
-		<div class="small-4 small-centered columns">
+		<div class="small-12 columns">
 			<div id="icon" class="displayer">
 				<small>Icon</small>
 				<div class="logo-table"><canvas class="logo"></canvas></div>
@@ -61,9 +66,13 @@
 		</div>
 	</div>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/min/app-ck.js"></script>
+	<div class="hide"><!-- TODO remove -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+		<script src="bower_components/foundation/js/foundation.min.js"></script>
+		<script src="js/min/functions-ck.js"></script>
+		<script src="js/min/defines-ck.js"></script>
+		<script src="js/min/app-ck.js"></script>
+	</div>
   </body>
 </html>

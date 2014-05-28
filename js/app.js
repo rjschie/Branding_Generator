@@ -1,108 +1,57 @@
 $(document).foundation();
 
-function hexToRgb(hex) {
-	var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-	return result ? {
-		r: parseInt(result[1], 16),
-		g: parseInt(result[2], 16),
-		b: parseInt(result[3], 16)
-	} : "Err: "+result;
-}
-
-function setImage(img, color) {
-	$('canvas.logo').each(function() {
-		var canvas = this;
-		var ctx = canvas.getContext("2d");
-
-		var myImage = new Image();
-		myImage.onload = function() {
-
-			ctx.clearRect(0, 0, canvas.width, canvas.height);
-			ctx.drawImage(myImage,0,0, canvas.width,canvas.height);
-			myImage = ctx.getImageData(0, 0, canvas.width, canvas.height);
-				for (var i = 0; i < myImage.data.length; i += 4) {
-					myImage.data[i] = hexToRgb(color).r;
-					myImage.data[i+1] = hexToRgb(color).g;
-					myImage.data[i+2] = hexToRgb(color).b;
-				}
-			ctx.putImageData(myImage, 0, 0);
-		}
-		myImage.src = img;
-	});
-}
-
-function changeCanvasColor(color) {
-	$('canvas.logo').each(function() {
-		var ctx = this.getContext("2d");
-		var myImage = ctx.getImageData(0, 0, this.width, this.height);
-		for (var i = 0; i < myImage.data.length; i += 4) {
-			myImage.data[i] = hexToRgb(color).r;
-			myImage.data[i+1] = hexToRgb(color).g;
-			myImage.data[i+2] = hexToRgb(color).b;
-		}
-		ctx.putImageData(myImage, 0, 0);
-	});
-}
-
-
-function defaultPos(obj) {
-	if(obj.parent().parent().attr('id') == 'icon'){
-		obj.position({
-			my: "center",
-			at: "center",
-			of: obj.parent()
-		});
-	} else {
-		obj.position({
-			my: "bottom",
-			at: "center",
-			of: obj.parent()
-		});
-	}
-}
-
-
-
 $(function() {
 
+	/**
+	 * Vars
+	 */
 	var bgcolor = $('input#bgcolor');
 	var logocolor = $('input#logocolor');
 	var logoResetPos = $('#logoResetPos');
-
-	var icon = $('#icon');
-	var phone = $('#phone');
-	var tablet = $('#tablet');
+	var displayer = $('.displayer');
 	var logo = $('canvas.logo');
 
-	icon.css('background', bgcolor.val());
-	phone.css('background', bgcolor.val());
-	tablet.css('background', bgcolor.val());
+	/**
+	 * Event: Set Background Color from BGColor
+	 */
 	bgcolor.on('change', function() {
-		icon.css('background', bgcolor.val());
-		phone.css('background', bgcolor.val());
-		tablet.css('background', bgcolor.val());
+		displayer.css('background', bgcolor.val());
 	});
 
+
+	/**
+	 * Put image in the <canvas>
+	 */
 	logo.each(function(){
 		defaultPos($(this));
 		setImage("_design/trans_00.png", logocolor.val());	// TODO remove
-		$(this).draggable({containment: $(this).parent() })
+		$(this).draggable({containment: $(this).parent()});
 
 		// TODO Make available
 //		$(this).resizable({handles: "ne, se, nw, sw", aspectRatio: true, autoHide: false, containment: $(this).parent() });
 	});
 
 
+	/**
+	 * Event: Change color of image
+	 */
 	logocolor.on('change', Foundation.utils.throttle(function () {
 		changeCanvasColor($(this).val());
 	}, 600));
 
+
+	/**
+	 * Event: Reset Pos
+ 	 */
 	logoResetPos.on('click', function() {
 		logo.each(function() {
 			defaultPos($(this));
 		});
 	});
 
+	/**
+	 * Event: Put Logo in .displayer's
+	 */
 	$('#logoimage').on('change', function(evt) {
 		var files = evt.target.files;
 		var file = files[0];
@@ -117,10 +66,11 @@ $(function() {
 		reader.readAsBinaryString(file);
 	});
 
+	/**
+	 * Event: Put Position in Hidden inputs
+	 */
+	$('.logo').on('dragstop', function(event, ui) {
+		saveLogoPos($(this));
+	});
+
 });
-
-
-
-
-
-
