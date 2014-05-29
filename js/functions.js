@@ -79,19 +79,39 @@ function defaultPos(obj) {
 function saveLogoPos(obj) {
 
 	var fullparentW, fullparentH;
-	if(obj.parent().parent().attr('id') == 'icon') {
-		fullparentH = 1024;
-		fullparentW = 1024;
-	} else if(obj.parent().parent().attr('id') == 'phone') {
-		fullparentH = 1920;
-		fullparentW = 1080;
-	} else if(obj.parent().parent().attr('id') == 'tablet') {
-		fullparentH = 3840;
-		fullparentW = 2400;
+
+	var parent = obj.parent().parent();
+
+	if(parent.attr('id') == 'icon') {
+		fullparentW = icon.fw;
+		fullparentH = icon.fh;
+	} else if(parent.attr('id') == 'phone') {
+		fullparentW = phone.fw;
+		fullparentH = phone.fh;
+	} else if(parent.attr('id') == 'tablet') {
+		fullparentW = tablet.fw;
+		fullparentH = tablet.fh;
+	} else {
+		return;
 	}
 
 	var posX = obj.position().left * (fullparentW/obj.parent().width());
 	var posY = obj.position().top * (fullparentH/obj.parent().height());
-	$('#logoPosX').val(posX);
-	$('#logoPosY').val(posY);
+	$('#'+parent.attr('id')+'LogoPosX').val(posX);
+	$('#'+parent.attr('id')+'LogoPosY').val(posY);
 }
+
+
+/**
+ * Creates the JSON object to send to PHP Script
+ * @returns {@inputName : @inputVal, etc.}
+ */
+function createJSON() {
+	var output = {};
+	$('input.useVal').each(function() {
+		output[$(this).attr('id')] = $(this).val();
+	});
+	return output;
+}
+
+

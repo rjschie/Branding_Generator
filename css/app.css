@@ -5260,13 +5260,10 @@ th.hide-for-touch {
 .touch th.show-for-touch {
   display: table-cell !important; }
 
-.testborder {
-  border: 1px solid red; }
-
 /**
  * Option Picking
  */
-#options {
+#branding_frm {
   margin-top: 1rem; }
 
 /**

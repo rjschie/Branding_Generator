@@ -10,15 +10,15 @@
   </head>
   <body>
 
-	<form id="branding_frm">
-		<div id="options" class="row">
+	<form id="branding_frm" method="post" action="create_image.php">
+		<div class="row">
 			<div class="small-6 medium-3 medium-offset-3 columns text-center ">
 				<div class="row ">
 					<div class="small-9 columns">
 						<label class="" for="bgcolor">Background Color</label>
 					</div>
 					<div class="small-3 columns inline">
-						<input id="bgcolor" name="bgcolor" type="color" value="#27354b">
+						<input id="bgcolor" class="useVal" name="bgcolor" type="color" value="#27354b">
 					</div>
 				</div>
 			</div>
@@ -28,7 +28,7 @@
 						<label class="" for="logocolor">Logo Color</label>
 					</div>
 					<div class="small-3 columns inline">
-						<input id="logocolor" name="logocolor" type="color" value="#e1e4e8">
+						<input id="logocolor" class="useVal" name="logocolor" type="color" value="#e1e4e8">
 					</div>
 				</div>
 			</div>
@@ -41,12 +41,15 @@
 				<a id="logoResetPos" class="button tiny">Reset Pos</a>
 			</div>
 		</div>
-		<input type="hidden" class="hide" id="iconLogoPosX" name="iconLogoPosX">
-		<input type="hidden" class="hide" id="iconLogoPosY" name="iconLogoPosY">
-		<input type="hidden" class="hide" id="phoneLogoPosX" name="phoneLogoPosX">
-		<input type="hidden" class="hide" id="phoneLogoPosY" name="phoneLogoPosY">
-		<input type="hidden" class="hide" id="tabletLogoPosX" name="tabletLogoPosX">
-		<input type="hidden" class="hide" id="tabletLogoPosY" name="tabletLogoPosY">
+		<div class="row">
+			<input id="create_branding" name="create_branding" type="submit" class="tiny button" value="Create Branding">
+		</div>
+		<input type="hidden" class="useVal hide" id="iconLogoPosX" name="iconLogoPosX">
+		<input type="hidden" class="useVal hide" id="iconLogoPosY" name="iconLogoPosY">
+		<input type="hidden" class="useVal hide" id="phoneLogoPosX" name="phoneLogoPosX">
+		<input type="hidden" class="useVal hide" id="phoneLogoPosY" name="phoneLogoPosY">
+		<input type="hidden" class="useVal hide" id="tabletLogoPosX" name="tabletLogoPosX">
+		<input type="hidden" class="useVal hide" id="tabletLogoPosY" name="tabletLogoPosY">
 	</form>
 
 	<div class="row">
@@ -55,14 +58,14 @@
 				<small>Icon</small>
 				<div class="logo-table"><canvas class="logo"></canvas></div>
 			</div>
-			<!--<div id="phone" class="displayer">-->
-				<!--<small>Phone</small>-->
-				<!--<div class="logo-table"><canvas class="logo"></canvas></div>-->
-			<!--</div>-->
-			<!--<div id="tablet" class="displayer">-->
-				<!--<small>Tablet</small>-->
-				<!--<div class="logo-table"><canvas class="logo"></canvas></div>-->
-			<!--</div>-->
+			<div id="phone" class="displayer">
+				<small>Phone</small>
+				<div class="logo-table"><canvas class="logo"></canvas></div>
+			</div>
+			<div id="tablet" class="displayer">
+				<small>Tablet</small>
+				<div class="logo-table"><canvas class="logo"></canvas></div>
+			</div>
 		</div>
 	</div>
 

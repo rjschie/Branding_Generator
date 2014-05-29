@@ -7,7 +7,6 @@ $(function() {
 	 */
 	var bgcolor = $('input#bgcolor');
 	var logocolor = $('input#logocolor');
-	var logoResetPos = $('#logoResetPos');
 	var displayer = $('.displayer');
 	var logo = $('canvas.logo');
 
@@ -43,7 +42,7 @@ $(function() {
 	/**
 	 * Event: Reset Pos
  	 */
-	logoResetPos.on('click', function() {
+	$('#logoResetPos').on('click', function() {
 		logo.each(function() {
 			defaultPos($(this));
 		});
@@ -69,8 +68,18 @@ $(function() {
 	/**
 	 * Event: Put Position in Hidden inputs
 	 */
-	$('.logo').on('dragstop', function(event, ui) {
+	logo.on('dragstop', function(event, ui) {
 		saveLogoPos($(this));
+	});
+
+
+	/**
+	 * Event: Submit branding information
+	 */
+	$('#create_branding').on('click', function(e) {
+//		alert("Something");
+		window.console.log(createJSON());
+//		e.preventDefault();
 	});
 
 });

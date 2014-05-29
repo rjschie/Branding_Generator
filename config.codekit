@@ -12,6 +12,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_design\/branding_generator.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.328e+06,
+		"inputAbbreviatedPath": "\/_design\/branding_generator.png",
+		"outputAbbreviatedPath": "\/_design\/branding_generator.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_design\/bw_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -42,6 +52,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_design\/create_own.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.51356e+06,
+		"inputAbbreviatedPath": "\/_design\/create_own.png",
+		"outputAbbreviatedPath": "\/_design\/create_own.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_design\/trans_00.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -69,6 +89,36 @@
 		"initialSize": 146267,
 		"inputAbbreviatedPath": "\/_design\/trans_02.png",
 		"outputAbbreviatedPath": "\/_design\/trans_02.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_writes\/icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_writes\/icon.png",
+		"outputAbbreviatedPath": "\/_writes\/icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_writes\/phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_writes\/phone.png",
+		"outputAbbreviatedPath": "\/_writes\/phone.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_writes\/tablet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_writes\/tablet.png",
+		"outputAbbreviatedPath": "\/_writes\/tablet.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},

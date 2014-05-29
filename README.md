@@ -3,16 +3,16 @@ NOTES
 
 Logo Process
 --------------------
-User uploads logo
-send to PHP via AJAX
-thumbnail-ify
-send back via AJAX
-Put in canvas
+- User uploads logo
+- send to PHP via AJAX
+- thumbnail-ify
+- send back via AJAX
+- Put in canvas
 
 
 Submit Image Process
 --------------------
-send data via AJAX (in JSON)
+- send data via AJAX (in JSON)
 	- bg color
 	- logo color
 	- logo sizes
@@ -24,16 +24,16 @@ send data via AJAX (in JSON)
 		- phone
 		- tablet
 	- logo image
-Php create images
-email to branding dept.
-show on screen
-Success!
+- Php create images
+- email to branding dept.
+- show on screen
+- Success!
 
 
 
 TODO
 ================
-Get image into Local Storage
+- Get image into Local Storage
 	- fullimage
 	- tabletimage
 	- iconimage
