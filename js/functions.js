@@ -17,39 +17,39 @@ function hexToRgb(hex) {
  * @param img
  * @param color
  */
-function setImage(file, color) {
+function setImage(/*file*/img, color) {
 
-	var reader = new FileReader();
-	reader.onload = function(readerEvt) {
-		var binaryString = readerEvt.target.result;
-		var imgData = "data:"+file.type+";base64," + btoa(binaryString);
-//		setImage(imgData, logocolor.val())
-		return imgData;
-	}
-
-	var img = reader.readAsBinaryString(file);
-	window.console.log(img);
-
-//	$('canvas.logo').each(function() {
-//		var canvas = this;
-//		var ctx = canvas.getContext("2d");
+//	var reader = new FileReader();
+//	reader.onload = function(readerEvt) {
+//		var binaryString = readerEvt.target.result;
+//		var imgData = "data:"+file.type+";base64," + btoa(binaryString);
+////		setImage(imgData, logocolor.val())
+//		return imgData;
+//	}
 //
-//		var myImage = new Image();
-//		myImage.onload = function() {
-//
-//			ctx.clearRect(0, 0, canvas.width, canvas.height);
-//			ctx.drawImage(myImage,0,0, canvas.width,canvas.height);
-//			myImage = ctx.getImageData(0, 0, canvas.width, canvas.height);
-//			for (var i = 0; i < myImage.data.length; i += 4) {
-//				myImage.data[i] = hexToRgb(color).r;
-//				myImage.data[i+1] = hexToRgb(color).g;
-//				myImage.data[i+2] = hexToRgb(color).b;
-//			}
-//			ctx.putImageData(myImage, 0, 0);
-//		};
-//		myImage.src = img;
-//	});
-//	$('#img').val(img);
+//	var img = reader.readAsBinaryString(file);
+//	window.console.log(img);
+
+	$('canvas.logo').each(function() {
+		var canvas = this;
+		var ctx = canvas.getContext("2d");
+
+		var myImage = new Image();
+		myImage.onload = function() {
+
+			ctx.clearRect(0, 0, canvas.width, canvas.height);
+			ctx.drawImage(myImage,0,0, canvas.width,canvas.height);
+			myImage = ctx.getImageData(0, 0, canvas.width, canvas.height);
+			for (var i = 0; i < myImage.data.length; i += 4) {
+				myImage.data[i] = hexToRgb(color).r;
+				myImage.data[i+1] = hexToRgb(color).g;
+				myImage.data[i+2] = hexToRgb(color).b;
+			}
+			ctx.putImageData(myImage, 0, 0);
+		};
+		myImage.src = img;
+	});
+	$('#img').val(img);
 }
 
 /**

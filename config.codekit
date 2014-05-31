@@ -2,23 +2,423 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16877",
 "files": {
-	"\/_design\/2-Color - Branding Generator.fw.png": {
+	"\/_design\/Branding Generator\/Android#drawable-hdpi#icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.328e+06,
-		"inputAbbreviatedPath": "\/_design\/2-Color - Branding Generator.fw.png",
-		"outputAbbreviatedPath": "\/_design\/2-Color - Branding Generator.fw.png",
+		"initialSize": 3438,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-hdpi#icon.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-hdpi#icon.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_design\/branding_generator.png": {
+	"\/_design\/Branding Generator\/Android#drawable-hdpi#icon_notification.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.328e+06,
-		"inputAbbreviatedPath": "\/_design\/branding_generator.png",
-		"outputAbbreviatedPath": "\/_design\/branding_generator.png",
+		"initialSize": 713,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-hdpi#icon_notification.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-hdpi#icon_notification.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-mdpi#icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2111,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-mdpi#icon.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-mdpi#icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-mdpi#icon_notification.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 513,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-mdpi#icon_notification.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-mdpi#icon_notification.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-nodpi#logo_loader.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24237,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-nodpi#logo_loader.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-nodpi#logo_loader.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-nodpi#splash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58515,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-nodpi#splash.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-nodpi#splash.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-sw600dp-land-nodpi#splash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45473,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-sw600dp-land-nodpi#splash.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-sw600dp-land-nodpi#splash.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-sw600dp-nodpi#splash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46177,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-sw600dp-nodpi#splash.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-sw600dp-nodpi#splash.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-sw720dp-land-xhdpi#splash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70308,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-sw720dp-land-xhdpi#splash.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-sw720dp-land-xhdpi#splash.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-sw720dp-xhdpi#splash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71310,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-sw720dp-xhdpi#splash.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-sw720dp-xhdpi#splash.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-xhdpi#icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4950,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-xhdpi#icon.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-xhdpi#icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-xhdpi#icon_notification.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 914,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-xhdpi#icon_notification.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-xhdpi#icon_notification.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-xxhdpi#icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8596,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-xxhdpi#icon.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-xxhdpi#icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-xxhdpi#icon_notification.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1423,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-xxhdpi#icon_notification.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-xxhdpi#icon_notification.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-xxxhdpi#icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13225,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-xxxhdpi#icon.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-xxxhdpi#icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Android#drawable-xxxhdpi#icon_notification.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2050,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-xxxhdpi#icon_notification.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Android#drawable-xxxhdpi#icon_notification.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Default-568h@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26984,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default-568h@2x.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default-568h@2x.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Default-Landscape.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24221,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default-Landscape.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default-Landscape.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Default-Landscape@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66625,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default-Landscape@2x.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default-Landscape@2x.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Default-Portrait.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27174,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default-Portrait.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default-Portrait.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Default-Portrait@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76402,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default-Portrait@2x.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default-Portrait@2x.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Default.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11414,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Default@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25788,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default@2x.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Default@2x.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Icon-60x60@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2822,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon-60x60@2x.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon-60x60@2x.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Icon-72x72.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1796,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon-72x72.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon-72x72.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Icon-72x72@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3420,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon-72x72@2x.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon-72x72@2x.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Icon-76x76.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1872,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon-76x76.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon-76x76.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Icon-76x76@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3586,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon-76x76@2x.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon-76x76@2x.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1447,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#Icon@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2781,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon@2x.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#Icon@2x.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/iOS#logo-loader.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24237,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#logo-loader.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/iOS#logo-loader.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Store#Amazon Appstore#Icon#icon-114.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2938,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Store#Amazon Appstore#Icon#icon-114.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Store#Amazon Appstore#Icon#icon-114.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Store#Amazon Appstore#Icon#icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14527,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Store#Amazon Appstore#Icon#icon.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Store#Amazon Appstore#Icon#icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Store#Google Play#Icon#icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70523,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Store#Google Play#Icon#icon.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Store#Google Play#Icon#icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Store#iTunes App Store#Icon#icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38326,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Store#iTunes App Store#Icon#icon.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Store#iTunes App Store#Icon#icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/Store#Windows Phone#Icon#icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7279,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/Store#Windows Phone#Icon#icon.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/Store#Windows Phone#Icon#icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/WindowsPhone#applist-tile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1578,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/WindowsPhone#applist-tile.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/WindowsPhone#applist-tile.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/WindowsPhone#home-tile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4028,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/WindowsPhone#home-tile.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/WindowsPhone#home-tile.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/WindowsPhone#logo-loader.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24199,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/WindowsPhone#logo-loader.png",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/WindowsPhone#logo-loader.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/WindowsPhone#splash-hd.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85023,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/WindowsPhone#splash-hd.jpg",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/WindowsPhone#splash-hd.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/WindowsPhone#splash-wxga.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88541,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/WindowsPhone#splash-wxga.jpg",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/WindowsPhone#splash-wxga.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Branding Generator\/WindowsPhone#splash.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54044,
+		"inputAbbreviatedPath": "\/_design\/Branding Generator\/WindowsPhone#splash.jpg",
+		"outputAbbreviatedPath": "\/_design\/Branding Generator\/WindowsPhone#splash.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -32,33 +432,43 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_design\/Create Your Own - 720.fw.png": {
+	"\/_design\/Templates\/2-Color - Branding Generator.fw.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.51356e+06,
-		"inputAbbreviatedPath": "\/_design\/Create Your Own - 720.fw.png",
-		"outputAbbreviatedPath": "\/_design\/Create Your Own - 720.fw.png",
+		"initialSize": 1.328e+06,
+		"inputAbbreviatedPath": "\/_design\/Templates\/2-Color - Branding Generator.fw.png",
+		"outputAbbreviatedPath": "\/_design\/Templates\/2-Color - Branding Generator.fw.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_design\/Create Your Own.fw.png": {
+	"\/_design\/Templates\/branding_generator.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.328e+06,
+		"inputAbbreviatedPath": "\/_design\/Templates\/branding_generator.png",
+		"outputAbbreviatedPath": "\/_design\/Templates\/branding_generator.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_design\/Templates\/Create Your Own.fw.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.51772e+06,
-		"inputAbbreviatedPath": "\/_design\/Create Your Own.fw.png",
-		"outputAbbreviatedPath": "\/_design\/Create Your Own.fw.png",
+		"inputAbbreviatedPath": "\/_design\/Templates\/Create Your Own.fw.png",
+		"outputAbbreviatedPath": "\/_design\/Templates\/Create Your Own.fw.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_design\/create_own.png": {
+	"\/_design\/Templates\/create_own.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.51356e+06,
-		"inputAbbreviatedPath": "\/_design\/create_own.png",
-		"outputAbbreviatedPath": "\/_design\/create_own.png",
+		"inputAbbreviatedPath": "\/_design\/Templates\/create_own.png",
+		"outputAbbreviatedPath": "\/_design\/Templates\/create_own.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -89,36 +499,6 @@
 		"initialSize": 146267,
 		"inputAbbreviatedPath": "\/_design\/trans_02.png",
 		"outputAbbreviatedPath": "\/_design\/trans_02.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_writes\/icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/_writes\/icon.png",
-		"outputAbbreviatedPath": "\/_writes\/icon.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_writes\/phone.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/_writes\/phone.png",
-		"outputAbbreviatedPath": "\/_writes\/phone.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_writes\/tablet.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/_writes\/tablet.png",
-		"outputAbbreviatedPath": "\/_writes\/tablet.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
