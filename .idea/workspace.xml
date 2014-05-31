@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3426267-20c7-4719-be69-3e71dc34da3c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/.sass-cache/ea9db3b66f255fc50b5659055be9c724dd389804/app.scssc" afterPath="$PROJECT_DIR$/scss/.sass-cache/ea9db3b66f255fc50b5659055be9c724dd389804/app.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/min/app-ck.js" afterPath="$PROJECT_DIR$/js/min/app-ck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app.css" afterPath="$PROJECT_DIR$/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/app.scss" afterPath="$PROJECT_DIR$/scss/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_image.php" afterPath="$PROJECT_DIR$/create_image.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/min/defines-ck.js" afterPath="$PROJECT_DIR$/js/min/defines-ck.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/defines.js" afterPath="$PROJECT_DIR$/js/defines.js" />
@@ -41,52 +35,30 @@
     <leaf>
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="-12.407408" vertical-offset="145" max-vertical-offset="795">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="795">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="18" selection-start="2373" selection-end="2373" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="675">
-              <folding>
-                <element signature="tag#head#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#form#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#form#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_image.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/create_image.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="2" selection-start="398" selection-end="398" vertical-scroll-proportion="0.4453125" vertical-offset="30" max-vertical-offset="840">
+            <state line="32" column="22" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/app.scss">
+      <file leaf-file-name="create_image.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_image.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="510">
-              <folding>
-                <element signature="e#83#105#0" expanded="false" />
-                <element signature="e#162#430#0" expanded="false" />
-                <element signature="e#493#639#0" expanded="false" />
-                <element signature="e#648#810#0" expanded="false" />
-                <element signature="e#820#984#0" expanded="false" />
-                <element signature="e#998#1087#0" expanded="false" />
-                <element signature="e#1095#1174#0" expanded="false" />
-              </folding>
+            <state line="37" column="0" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="915">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,30 +66,17 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="7" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="930">
-              <folding>
-                <element signature="e#289#339#0" expanded="false" />
-                <element signature="e#405#700#0" expanded="false" />
-                <element signature="e#810#850#0" expanded="false" />
-                <element signature="e#936#995#0" expanded="false" />
-                <element signature="e#1089#1446#0" expanded="false" />
-                <element signature="e#1542#1570#0" expanded="false" />
-              </folding>
+            <state line="64" column="30" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1395">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="functions.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="0" selection-start="2900" selection-end="2900" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="840">
-              <folding>
-                <element signature="e#204#297#0" expanded="false" />
-                <element signature="n#!!block;n#setImage#0" expanded="false" />
-                <element signature="e#1153#1473#0" expanded="false" />
-                <element signature="n#!!block;n#defaultPos#0" expanded="false" />
-                <element signature="n#!!block;n#saveLogoPos#0" expanded="false" />
-              </folding>
+            <state line="27" column="5" selection-start="686" selection-end="686" vertical-scroll-proportion="0.31314623" vertical-offset="193" max-vertical-offset="2040">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +84,7 @@
       <file leaf-file-name="defines.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/defines.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="211" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+            <state line="15" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -154,10 +113,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/scss/app.scss" />
         <option value="$PROJECT_DIR$/js/defines.js" />
-        <option value="$PROJECT_DIR$/js/functions.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/create_image.php" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/js/functions.js" />
       </list>
     </option>
   </component>
@@ -441,42 +400,20 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="38" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0" vertical-offset="472" max-vertical-offset="1125">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#form#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#form#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="26" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1980">
-          <folding>
-            <element signature="e#289#339#0" expanded="false" />
-            <element signature="e#405#700#0" expanded="false" />
-            <element signature="e#810#850#0" expanded="false" />
-            <element signature="e#936#995#0" expanded="false" />
-            <element signature="e#1089#1446#0" expanded="false" />
-            <element signature="e#1542#1570#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="3" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1410">
-          <folding>
-            <element signature="e#83#105#0" expanded="false" />
-            <element signature="e#162#430#0" expanded="false" />
-            <element signature="e#493#639#0" expanded="false" />
-            <element signature="e#648#810#0" expanded="false" />
-            <element signature="e#820#984#0" expanded="false" />
-            <element signature="e#998#1087#0" expanded="false" />
-            <element signature="e#1095#1174#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="17" column="3" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1410" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
@@ -501,85 +438,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="483" selection-end="483" vertical-scroll-proportion="0.3984375" vertical-offset="0" max-vertical-offset="19275">
+        <state line="17" column="27" selection-start="483" selection-end="483" vertical-scroll-proportion="0.3984375" vertical-offset="0" max-vertical-offset="19275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="-12.407408" vertical-offset="145" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
+        <state line="66" column="8" selection-start="820" selection-end="820" vertical-scroll-proportion="0.19601838" vertical-offset="862" max-vertical-offset="1515" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/defines.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="211" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state line="15" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="22" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="30" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1395">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="0" selection-start="2900" selection-end="2900" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="840">
-          <folding>
-            <element signature="e#204#297#0" expanded="false" />
-            <element signature="n#!!block;n#setImage#0" expanded="false" />
-            <element signature="e#1153#1473#0" expanded="false" />
-            <element signature="n#!!block;n#defaultPos#0" expanded="false" />
-            <element signature="n#!!block;n#saveLogoPos#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="7" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="930">
-          <folding>
-            <element signature="e#289#339#0" expanded="false" />
-            <element signature="e#405#700#0" expanded="false" />
-            <element signature="e#810#850#0" expanded="false" />
-            <element signature="e#936#995#0" expanded="false" />
-            <element signature="e#1089#1446#0" expanded="false" />
-            <element signature="e#1542#1570#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <element signature="e#83#105#0" expanded="false" />
-            <element signature="e#162#430#0" expanded="false" />
-            <element signature="e#493#639#0" expanded="false" />
-            <element signature="e#648#810#0" expanded="false" />
-            <element signature="e#820#984#0" expanded="false" />
-            <element signature="e#998#1087#0" expanded="false" />
-            <element signature="e#1095#1174#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="18" selection-start="2373" selection-end="2373" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="675">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#form#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#form#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="2" selection-start="398" selection-end="398" vertical-scroll-proportion="0.4453125" vertical-offset="30" max-vertical-offset="840">
+        <state line="27" column="5" selection-start="686" selection-end="686" vertical-scroll-proportion="0.31314623" vertical-offset="193" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>

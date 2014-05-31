@@ -23,7 +23,7 @@ $(function() {
 	 */
 	logo.each(function(){
 		defaultPos($(this));
-		setImage("_design/trans_00.png", logocolor.val());	// TODO remove
+//		setImage("_design/trans_00.png", logocolor.val());	// TODO remove
 		$(this).draggable({containment: $(this).parent()});
 
 		// TODO Make available
@@ -51,18 +51,20 @@ $(function() {
 	/**
 	 * Event: Put Logo in .displayer's
 	 */
-	$('#logoimage').on('change', function(evt) {
+	$('#logoimg').on('change', function(evt) {
 		var files = evt.target.files;
 		var file = files[0];
 		if (files && file) {
-			var reader = new FileReader();
-			reader.onload = function(readerEvt) {
-				var binaryString = readerEvt.target.result;
-				var imgData = "data:"+file.type+";base64," + btoa(binaryString);
-				setImage(imgData, logocolor.val())
-			}
+//			var reader = new FileReader();
+//			reader.onload = function(readerEvt) {
+//				var binaryString = readerEvt.target.result;
+//				var imgData = "data:"+file.type+";base64," + btoa(binaryString);
+//				setImage(imgData, logocolor.val())
+//				$('#img').val(imgData);
+//			}
+			setImage(file, logocolor.val());
 		}
-		reader.readAsBinaryString(file);
+//		reader.readAsBinaryString(file);
 	});
 
 	/**

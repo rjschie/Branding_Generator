@@ -10,7 +10,7 @@
   </head>
   <body>
 
-	<form id="branding_frm" method="post" action="create_image.php">
+	<form id="branding_frm" method="post" action="create_image.php" enctype="multipart/form-data">
 		<div class="row">
 			<div class="small-6 medium-3 medium-offset-3 columns text-center ">
 				<div class="row ">
@@ -35,7 +35,7 @@
 		</div>
 		<div class="row">
 			<div class="small-6 columns">
-				<label for="logoimage">Image</label><input id="logoimage" name="logoimage" type="file">
+				<label for="logoimg">Image</label><input id="logoimg" name="logoimg" type="file">
 			</div>
 			<div class="small-6 columns">
 				<a id="logoResetPos" class="button tiny">Reset Pos</a>
@@ -44,6 +44,7 @@
 		<div class="row">
 			<input id="create_branding" name="create_branding" type="submit" class="tiny button" value="Create Branding">
 		</div>
+		<input type="hidden" class="useVal hide" id="img" name="img">
 		<input type="hidden" class="useVal hide" id="iconLogoPosX" name="iconLogoPosX">
 		<input type="hidden" class="useVal hide" id="iconLogoPosY" name="iconLogoPosY">
 		<input type="hidden" class="useVal hide" id="phoneLogoPosX" name="phoneLogoPosX">
